@@ -1,0 +1,26 @@
+package com.example.tabslayout;
+
+import android.os.Bundle;
+
+import androidx.fragment.app.Fragment;
+
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+
+public class WedFragment extends Fragment {
+
+
+    public WedFragment() {
+        // Required empty public constructor
+    }
+
+    @Override
+    public View onCreateView(LayoutInflater inflater, ViewGroup container,
+                             Bundle savedInstanceState) {
+        // Inflate the layout for this fragment
+        View view= inflater.inflate(R.layout.fragment_wed, container, false);
+
+        return view;
+    }
+}
